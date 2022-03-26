@@ -21,7 +21,7 @@ body {
     gap: 32px;
 }
 
-.nav a {
+.nav a, .header-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
@@ -29,5 +29,41 @@ body {
 
 .logo {
     font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header {
+    padding: 100px 12%;
+    background-color: #1F2937;
+    display: flex;
+    gap: 32px;
+}
+
+.header-left {
+    flex: 1;
+}
+
+.header-left button {
+    padding: 8px 32px;
+    margin-top: 12px;
+    background-color: #3882F6;
+    color: #FFFFFF;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+}
+
+.header-right {
+    background-color: #6D747D;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.header-main-text {
+    font-size: 48px;
+    font-weight: 900;
     color: #F9FAF8;
 }
